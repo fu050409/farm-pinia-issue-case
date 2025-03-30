@@ -10,5 +10,6 @@ export default defineConfig({
 				"@": path.resolve(__dirname, "src"),
 			},
 		},
+		// treeShaking: false, // temporary disable tree shaking will fix this issue
 	},
 });

@@ -29,3 +29,7 @@ This is a minimal reproduction of an issue with Pinia and Farm.
     require (index):1
     <anonymous> (index):5
    ```
+
+## Temporary solution
+
+Disable `compilation.treeShaking` in `farm.config.ts`.
